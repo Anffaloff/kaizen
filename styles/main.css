@@ -7,3 +7,45 @@ html {
 body {
     background-color: #f17777;
 }
+
+.flex1 {
+    display: flex;
+    gap: 10px;
+}
+
+.flex1 > div {
+    height: 250px;
+    width: 250px;
+    background-color: #e20d0d;
+}
+
+.flex1 > div:nth-child(1) {
+    height: 250px;
+    width: 250px;
+    background-color: #f17777;
+}
+
+/* .flex > div:nth-child(1 2 3) {
+    flex-wrap: wrap;
+    flex-direction: column;
+} */
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.flex2 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #e20d0d;
+    height: 73px;
+    width: 250px;
+    
+}
+
+
+
